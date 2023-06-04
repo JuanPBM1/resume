@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="icon" type="image/png" href="">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/format.css">
+    <link rel="stylesheet" href="assets/css/class.css">
+    <link rel="stylesheet" href="assets/css/mobile.css">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="menu espaco_baixo">
+            <nav>
+                <ul class="menu">
+                    <li class="menu__item">
+                        <a href="#sobre_mim">Sobre mim</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#formacao">Formação</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#experiencias">Experiências</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#habilidades">Habilidades</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#interesses">Interesses</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <img class="icon__mobile" src="assets/imgs/menu.png" onclick=mostraMenu()>
+            <div class="nav__mobile" id="menu-mobile">
+                <ul class="menu__mobile">
+                    <li class="menu__mobile__item">
+                        <a href="#sobre_mim">Sobre mim</a>
+                    </li>
+                    <li class="menu__mobile__item">
+                        <a href="#formacao">Formação</a>
+                    </li>
+                    <li class="menu__mobile__item">
+                        <a href="#experiencias">Experiências</a>
+                    </li>
+                    <li class="menu__mobile__item">
+                        <a href="#habilidades">Habilidades</a>
+                    </li>
+                    <li class="menu__mobile__item">
+                        <a href="#interesses">Interesses</a>
+                    </li>
+                </ul>
+            </div>
+
+
+        <div class="conteudo__header"> <!--DIV EXTERNA-->
+            <div class="conteudo__header__info grande"> <!--DIV INFORMAÇÕES-->
+                <h1>Juan Patrick B. de Menezes</h1><br>
+                <div class="espaco_baixo italico">Cientista da Computação<br></div>
+
+                <div><!--DIV INFORMAÇÕES COM IMAGEM-->
+                    <div class="espaco_baixo alinhar">
+                        <img src="assets/imgs/email.png" width="15rem" height="15rem" class="espaco_direita"> juanmontagemrc@gmail.com<br>
+                    </div>
+
+                    <div class="espaco_baixo alinhar">
+                        <img src="assets/imgs/whatsapp.png" width="15rem" height="15rem" class="espaco_direita"> (21) 99999-9999<br>
+                    </div>
+
+                    <div class="espaco_baixo alinhar">
+                        <img src="assets/imgs/pin.png" width="15rem" height="15rem" class="espaco_direita"> Rio de Janeiro/RJ - Brasil<br>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="conteudo__header__imgs"><!--DIV IMAGENS-->
+                <div class="fotoperf espaco_baixo_2"></div>
+                <div class="conteudo__header__imgs__links">
+                        <a href="https://www.instagram.com/juan.ayyyyy/" target="_blank" class="conteudo__header__imgs__links__imgs">
+                            <img width=40px src="assets/imgs/instagram.png" class="midia">
+                        </a>
+                        <a href="https://github.com/JuanPBM1" target="_blank" class="conteudo__header__imgs__links__imgs">
+                            <img width=40px src="assets/imgs/github.png" class="midia">
+                        </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <main>
+        <div id="sobre_mim" class="sobre_mim espaco_cima_2">
+            <img src="assets/imgs/sobre-mim.png" class="sobre_mim__foto">
+            <div>
+                <h3>Sobre mim</h3>
+                <p>Olá! Me chamo Juan, sou aluno da Alura e também curso Ciência da Computação na UERJ! Meus amigos me definem como uma pessoa aleatória... já eu diria que não é aleatoriedade, é vontade de saber um pouquinho de tudo! Gosto de aprender sobre os mais variados assuntos... sempre aberto à novas experiências!</p>
+            </div>
+        </div>
+
+        <div id="formacao" class="topicos espaco_cima_2">
+            <h3 class="espaco_esquerda_2 espaco_cima_2">Formação</h3>
+            <div class="topicos__caixas espaco_baixo_2">
+                <p class="fundo caixa">Ensino Médio regular - Colégio Estadual Leopoldina da Silveira</p>
+                <p class="fundo caixa">Graduação em Ciência da Computação (cursando) - UERJ</p>
+                <p class="fundo caixa">Ensino subsequente em Montagem e Reparo de Computadores - FAETEC</p>
+                <p class="fundo caixa">Outros certificados de cursos <a href="assets/files/Todos os diplomas.pdf" target="_blank" style="text-decoration: underline;">aqui</a></p>
+            </div>
+        </div>
+
+        <div id="experiencias" class="topicos">
+            <h3 class="espaco_esquerda_2">Experiências</h3>
+            <div class="topicos__caixas">
+                <p class="fundo caixa">Ensinei voluntariamente inglês durante 3 meses</p>
+                <p class="fundo caixa">Vendedor substituto em negócio familiar</p>
+            </div>
+        </div>
+
+        <div id="habilidades" class="topicos">
+            <h3 class="espaco_esquerda_2">Habilidades</h3>
+            <div class="topicos__caixas">
+                <p class="fundo caixa">HTML5, Figma e CSS iniciantes; JavaScript básico; C iniciante; Word, Excel e Powerpoint intermediários</p>
+                <p class="fundo caixa">Inglês fluente, francês básico</p>
+            </div>
+        </div>
+
+        <div id="interesses" class="topicos">
+            <h3 class="espaco_esquerda_2">Interesses</h3>
+            <div class="topicos__icons">
+                <img src="assets/imgs/computador.png" class="foto_interesse midia espaco_direita_3" id="interesse-tec" onclick=colocaTexto(b);mostraTexto()>
+                <img src="assets/imgs/art.png" class="foto_interesse midia espaco_direita_3" id="interesse-art" onclick=colocaTexto(c);mostraTexto()>
+                <img src="assets/imgs/japan.png" class="foto_interesse midia espaco_direita_3" id="interesse-jap" onclick=colocaTexto(d);mostraTexto()>
+                <img src="assets/imgs/animal.png" class="foto_interesse midia" id="interesse-ani" onclick=colocaTexto(e);mostraTexto()>
+            </div>
+            <div class="topicos__caixas__fdp" id="caixa_de_texto">
+                <img src="assets/imgs/pintura.jpg" class="pintura" id="pintura">
+                <p class="fundo caixa_fdp" id="texto"></p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <div class="footer__informacoes">
+                <img src="assets/imgs/call.png" class="foto_footer espaco_direita">
+                <p class="p_footer">Fale comigo através do meu&nbsp<a href="mailto:juanmontagemrc@gmail.com" style="color:#36438d; text-decoration: underline;">e-mail</a></p>
+            </div>
+        </div>
+        <p class="p_footer">Juan Menezes<br>2023</p>
+        <p class="p_footer">Créditos das imagens: Freepik, Pixel perfect, Kmg design e Flat Icons</p>
+    </footer>
+
+</body>
+
+</html>

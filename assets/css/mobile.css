@@ -1,0 +1,99 @@
+/*Media query para dispositivos com largura menor que 1080 pixels*/
+@media (max-width: 1080px){
+    header{
+        width:auto;
+        display:none;
+    }
+    body{
+        width:auto;
+    }
+    footer{
+        width:auto;
+    }
+    
+    h1{
+        margin:15% 0 0 0;
+        padding:0;
+        font-size:100%;
+        font-weight:bolder;
+    }
+
+    main{
+        padding: 0 5% 8% 5%;
+    }
+
+    .conteudo__header{
+        flex-direction: column-reverse;
+        width:auto;
+        height:auto;
+    }
+
+    .conteudo__header__info{
+        width:auto;
+        height:auto;
+        max-width: auto;
+        max-height: auto;
+        align-self: flex-start;
+        flex-wrap:wrap;
+        margin: 0 0 0 6%;
+    }
+
+    .conteudo__header__imgs{
+        width:auto;
+    }
+
+    .sobre_mim__foto{
+        width:250px;
+    }
+
+    .sobre_mim{
+        flex-direction: column;
+    }
+
+    .caixa{
+        width: 330px;;
+        height:100px;
+        padding:4%;
+    }
+
+    .caixa_fdp{
+        width:auto;
+        height:auto;
+        font-size: small;
+    }
+
+    .icon__mobile{
+        width:50px;
+        height: 50px;
+        display:flex;
+        z-index:9;
+        display:flex;
+        align-self:flex-end;
+        padding:5% 5% 0 0;
+    }
+
+    .nav__mobile{
+        display:none;
+        flex-direction:column;
+        justify-content: flex-start;
+        align-items: flex-end;
+        gap:10px;
+        z-index: 9;
+        transition: 2s display;
+    }
+
+    .menu__mobile{
+        color:white;
+        position:absolute;
+        display:flex;
+        flex-direction: column;
+        background-color: #2b3467;
+        border-radius: 5%;
+        padding: 5% 5% 5% 6%;
+        margin: 5% 5% 0 0;
+    }
+
+    .menu__mobile__item{
+        margin:5%;
+    }
+}
