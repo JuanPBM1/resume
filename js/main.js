@@ -43,3 +43,5 @@ function colocaTexto(letra){
     }
     document.getElementById("texto").innerHTML = letra
 }
+
+//teste muito doido do github
